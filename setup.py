@@ -17,7 +17,7 @@ sys.path.append(os.path.join(PROJECT_DIR, 'src'))
 from oscar import get_version
 
 setup(name='django-oscar',
-      version=get_version().replace(' ', '-'),
+      version='1.2.0dev-c16b0fd64',
       url='https://github.com/django-oscar/django-oscar',
       author="David Winterbottom",
       author_email="david.winterbottom@gmail.com",
